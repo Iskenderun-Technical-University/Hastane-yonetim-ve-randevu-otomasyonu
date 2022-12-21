@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37155865-015B-44E7-8399-4662816B444E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HASTANEPROJESİ</RootNamespace>
+    <AssemblyName>HASTANEPROJESİ</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmbeyinvesinir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbeyinvesinir.Designer.cs">
+      <DependentUpon>frmbeyinvesinir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmbilgilerinidüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbilgilerinidüzenle.Designer.cs">
+      <DependentUpon>frmbilgilerinidüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdahiliye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdahiliye.Designer.cs">
+      <DependentUpon>frmdahiliye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmddahiliye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmddahiliye.Designer.cs">
+      <DependentUpon>frmddahiliye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdoktorrandevu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdoktorrandevu.Designer.cs">
+      <DependentUpon>frmdoktorrandevu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmgözhastalıkları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmgözhastalıkları.Designer.cs">
+      <DependentUpon>frmgözhastalıkları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhastadetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhastadetay.Designer.cs">
+      <DependentUpon>frmhastadetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhastagiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhastagiris.Designer.cs">
+      <DependentUpon>frmhastagiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmilkgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmilkgiris.Designer.cs">
+      <DependentUpon>frmilkgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmkardiyoloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmkardiyoloji.Designer.cs">
+      <DependentUpon>frmkardiyoloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmkayıtbasarılı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmkayıtbasarılı.Designer.cs">
+      <DependentUpon>frmkayıtbasarılı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnöroloji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnöroloji.Designer.cs">
+      <DependentUpon>frmnöroloji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrandevualma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrandevualma.Designer.cs">
+      <DependentUpon>frmrandevualma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrandevutalebi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrandevutalebi.Designer.cs">
+      <DependentUpon>frmrandevutalebi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsekreterdetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsekreterdetay.Designer.cs">
+      <DependentUpon>frmsekreterdetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmçocukhastalık.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmçocukhastalık.Designer.cs">
+      <DependentUpon>frmçocukhastalık.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmüyekayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmüyekayıt.Designer.cs">
+      <DependentUpon>frmüyekayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmrandevubasarılı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrandevubasarılı.Designer.cs">
+      <DependentUpon>frmrandevubasarılı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrandevugörntle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrandevugörntle.Designer.cs">
+      <DependentUpon>frmrandevugörntle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmbeyinvesinir.resx">
+      <DependentUpon>frmbeyinvesinir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbilgilerinidüzenle.resx">
+      <DependentUpon>frmbilgilerinidüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdahiliye.resx">
+      <DependentUpon>frmdahiliye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmddahiliye.resx">
+      <DependentUpon>frmddahiliye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdoktorrandevu.resx">
+      <DependentUpon>frmdoktorrandevu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmgözhastalıkları.resx">
+      <DependentUpon>frmgözhastalıkları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhastadetay.resx">
+      <DependentUpon>frmhastadetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhastagiris.resx">
+      <DependentUpon>frmhastagiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmilkgiris.resx">
+      <DependentUpon>frmilkgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmkardiyoloji.resx">
+      <DependentUpon>frmkardiyoloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmkayıtbasarılı.resx">
+      <DependentUpon>frmkayıtbasarılı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnöroloji.resx">
+      <DependentUpon>frmnöroloji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrandevualma.resx">
+      <DependentUpon>frmrandevualma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrandevutalebi.resx">
+      <DependentUpon>frmrandevutalebi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsekreterdetay.resx">
+      <DependentUpon>frmsekreterdetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmçocukhastalık.resx">
+      <DependentUpon>frmçocukhastalık.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmüyekayıt.resx">
+      <DependentUpon>frmüyekayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmrandevubasarılı.resx">
+      <DependentUpon>frmrandevubasarılı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrandevugörntle.resx">
+      <DependentUpon>frmrandevugörntle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
